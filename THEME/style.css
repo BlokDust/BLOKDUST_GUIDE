@@ -652,6 +652,19 @@ textarea,input {
 	background-image: url("img/noise10perc.png");
 }
 
+p iframe {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+p img {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
 .updated {
 	font-style: italic;
 	font-size: 14px;
