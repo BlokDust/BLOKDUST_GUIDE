@@ -3,6 +3,7 @@
 <?php
     $wp_query->set('orderby', 'menu_order');
 	$wp_query->set('order', 'ASC');
+	$wp_query->set('cat', 11);
 	$wp_query->get_posts();
 
     $count = 2;

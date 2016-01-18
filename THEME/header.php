@@ -81,10 +81,10 @@
 			    <div class="menuTxt">
 			        <div class="wideLine2 col1"></div>
 					<h2>Wiki</h2>
-					<?php posts_in_category(19); ?>
+					<?php posts_in_category(21); ?>
 					<div class="wideLine2 col1"></div>
 					<h2>Features</h2>
-                    <?php posts_in_category(3); ?>
+                    <?php posts_in_category(31); ?>
 
 				</div>
 			</div>
