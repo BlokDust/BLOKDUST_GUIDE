@@ -539,6 +539,7 @@ function posts_in_category($cat) {
     $args=array(
       'category' => $cat,
       'orderby'=>'title',
+      'order' => 'ASC',
       'posts_per_page'=>100
     );
 
