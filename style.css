@@ -386,6 +386,14 @@ h2 {
 	text-transform: uppercase;
 }
 
+h3 {
+	font: 400 28px "Dosis";
+	margin: 0;
+	padding: 0;
+	line-height: 48px;
+	text-transform: uppercase;
+}
+
 /* HEADER */
 
 textarea,input {
