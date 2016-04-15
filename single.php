@@ -27,7 +27,11 @@
 
 					<div id="post">
 
-					    <div class="intro"><?php get_the_excerpt(); ?></div>
+					    <div class="intro">
+					    	<?php if ( has_excerpt()) : // Check if Excerpt exists ?>
+					    	    <?php the_excerpt(); ?>
+					    	<?php endif; ?>
+					    </div>
 
                         <div class="wideLine col1"></div>
 
