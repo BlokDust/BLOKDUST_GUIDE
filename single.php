@@ -27,7 +27,7 @@
 
 					<div id="post">
 
-					    <div class="intro"><?php the_excerpt(); ?></div>
+					    <div class="intro"><?php get_the_excerpt(); ?></div>
 
                         <div class="wideLine col1"></div>
 
