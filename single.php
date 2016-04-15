@@ -37,6 +37,7 @@
 
 						<?php the_content(); // Dynamic Content ?>
 
+                        <div class="wideLine col1"></div>
 
 						<div class="updated">
 							<span>Last updated:</span>
