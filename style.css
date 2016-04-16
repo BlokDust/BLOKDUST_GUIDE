@@ -692,7 +692,7 @@ p img {
 	height: auto;
 }
 
-p blockquote {
+blockquote {
 	font-size: 24px;
 	line-height: 32px;
 	margin-bottom: 50px;
