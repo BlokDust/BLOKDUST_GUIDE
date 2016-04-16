@@ -406,11 +406,19 @@ h2 {
 }
 
 h3 {
-	font: 400 28px "Dosis";
+	font: 400 24px "Dosis";
 	margin: 0;
 	padding: 0;
 	line-height: 48px;
 	text-transform: uppercase;
+}
+
+h4 {
+	font: 300 24px "Merriweather Sans", Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 48px;
+	font-style: italic;
 }
 
 /* HEADER */
