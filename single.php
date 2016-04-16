@@ -34,9 +34,9 @@
 					    </div>
 
                         <div class="wideLine col1"></div>
-
+                                                <div id="content">
 						<?php the_content(); // Dynamic Content ?>
-
+                                                </div>
                         <div class="wideLine col1"></div>
 
 						<div class="updated">
