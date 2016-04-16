@@ -89,6 +89,25 @@ p {
 	margin-bottom: 50px;
 }
 
+li p {
+	padding: 0;
+	margin: 0;
+}
+
+ol li, ul li {
+	font-style: italic;
+	padding: 25px 0 25px 0;
+	border-bottom: 1px solid;
+}
+
+ol, ul {
+	list-style-position: outside;
+	list-style-type: decimal-leading-zero;
+	padding: 0;
+	margin: -20px 0 20px 27px;
+	width: 60%;
+}
+
 /*------------------------------------*\
     STRUCTURE
 \*------------------------------------*/
@@ -977,6 +996,9 @@ p img {
 	.faqColumn {
 		width: 100%;
 		margin-right: 0;
+	}
+	ol, ul {
+		width: auto;
 	}
 }
 
