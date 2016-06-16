@@ -27,12 +27,17 @@
 
 					<div id="post">
 
-					    <div class="intro"><?php the_excerpt(); ?></div>
+					    <div class="intro">
+					    	<?php if ( has_excerpt()) : // Check if Excerpt exists ?>
+					    	    <?php the_excerpt(); ?>
+					    	<?php endif; ?>
+					    </div>
 
                         <div class="wideLine col1"></div>
-
+                                                <div id="content">
 						<?php the_content(); // Dynamic Content ?>
-
+                                                </div>
+                        <div class="wideLine col1"></div>
 
 						<div class="updated">
 							<span>Last updated:</span>

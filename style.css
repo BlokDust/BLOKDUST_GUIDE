@@ -1,4 +1,19 @@
 /*
+Theme Name: Blokdust Twenty Thirteen
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/*
 	Theme Name: HTML5 Blank
 	Theme URI: http://html5blank.com
 	Description: HTML5 Blank WordPress Theme
@@ -72,6 +87,25 @@ input[type="submit"] {
 p {
 	width: 100%;
 	margin-bottom: 50px;
+}
+
+li p {
+	padding: 0;
+	margin: 0;
+}
+
+ol li, ul li {
+	font-style: italic;
+	padding: 25px 0 25px 0;
+	border-bottom: 1px solid;
+}
+
+ol, ul {
+	list-style-position: outside;
+	list-style-type: decimal-leading-zero;
+	padding: 0;
+	margin: -20px 0 20px 27px;
+	width: 60%;
 }
 
 /*------------------------------------*\
@@ -371,6 +405,22 @@ h2 {
 	text-transform: uppercase;
 }
 
+h3 {
+	font: 400 24px "Dosis";
+	margin: 0;
+	padding: 0;
+	line-height: 48px;
+	text-transform: uppercase;
+}
+
+h4 {
+	font: 300 24px "Merriweather Sans", Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 48px;
+	font-style: italic;
+}
+
 /* HEADER */
 
 textarea,input {
@@ -591,6 +641,10 @@ textarea,input {
 	padding: 50px 0 50px 0;
 }
 
+#content a {
+	text-decoration: underline;
+}
+
 .intro {
 	font-size: 24px;
 	line-height: 32px;
@@ -663,6 +717,14 @@ p img {
 	display: block;
 	width: 100%;
 	height: auto;
+}
+
+#content blockquote {
+	font-size: 24px;
+	line-height: 32px;
+	margin-bottom: 50px;
+	margin-left: 0;
+	font-style: italic;
 }
 
 .updated {
@@ -942,6 +1004,9 @@ p img {
 	.faqColumn {
 		width: 100%;
 		margin-right: 0;
+	}
+	ol, ul {
+		width: auto;
 	}
 }
 
