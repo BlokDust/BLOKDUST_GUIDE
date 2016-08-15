@@ -502,7 +502,7 @@ textarea,input {
 	bottom: 0;
 	width: 320px;
 	z-index: 15;
-	overflow-y: scroll;
+	overflow-y: auto;
 }
 
 .menuTxt {
